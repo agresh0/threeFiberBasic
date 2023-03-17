@@ -17,14 +17,14 @@ export default function CustomObject()
         
    return <>
    <mesh>
-        <bufferGeometry>
+        {/* <bufferGeometry>
             <bufferAttribute 
             attach="attributes-position"
             count={ verticesCount }
             itemSize={3}
             array={ positions }
             />
-        </bufferGeometry>
+        </bufferGeometry> */}
         <meshStandardMaterial color='red' side={ THREE.DoubleSide }/>
    </mesh>
    </>
